@@ -1,0 +1,11 @@
+JobID             State    Elapsed        NodeList      NCPUS 
+------------ ---------- ---------- --------------- ---------- 
+350027        COMPLETED   00:00:25            c006         80 
+350027.batch  COMPLETED   00:00:25            c006         80 
+350027.exte+  COMPLETED   00:00:25            c006         80 
+350027.0      COMPLETED   00:00:06            c006         40 
+350027.1      COMPLETED   00:00:12            c006         40 
+350027.2      COMPLETED   00:00:04            c006         40 
+350027.3      COMPLETED   00:00:15            c006         40 
+350027.4      COMPLETED   00:00:02            c006         40 
+350027.5      COMPLETED   00:00:11            c006         40 
