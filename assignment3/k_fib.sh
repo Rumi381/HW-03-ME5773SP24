@@ -9,7 +9,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 N=$1  # The number of terms in the K-Fibonacci series
-K=2   # Fixed number of previous terms to sum for the next term
+K=3   # Fixed number of previous terms to sum for the next term
 
 # Initialize an array with K ones, assuming the series starts with K ones
 fib=( $(for i in $(seq 1 $K); do echo 1; done) )
