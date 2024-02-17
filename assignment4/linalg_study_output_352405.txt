@@ -1,0 +1,78 @@
+Establishing Anaconda environment
+Running with MKL_NUM_THREADS=1
+N:10000
+Time to create matrices: 1.387095690
+Time to solve matrices: 4.478942871
+
+Array u:
+
+[1.000e-04 2.000e-04 3.000e-04 ... 9.998e-01 9.999e-01 1.000e+00]
+
+uₙ: 1
+---------------------------------------------
+Running with MKL_NUM_THREADS=2
+N:10000
+Time to create matrices: 1.349946976
+Time to solve matrices: 4.486469507
+
+Array u:
+
+[1.000e-04 2.000e-04 3.000e-04 ... 9.998e-01 9.999e-01 1.000e+00]
+
+uₙ: 1
+---------------------------------------------
+Running with MKL_NUM_THREADS=4
+N:10000
+Time to create matrices: 1.344508648
+Time to solve matrices: 4.415457964
+
+Array u:
+
+[1.000e-04 2.000e-04 3.000e-04 ... 9.998e-01 9.999e-01 1.000e+00]
+
+uₙ: 1
+---------------------------------------------
+Running with MKL_NUM_THREADS=8
+N:10000
+Time to create matrices: 1.386876583
+Time to solve matrices: 4.450530052
+
+Array u:
+
+[1.000e-04 2.000e-04 3.000e-04 ... 9.998e-01 9.999e-01 1.000e+00]
+
+uₙ: 1
+---------------------------------------------
+Running with MKL_NUM_THREADS=16
+N:10000
+Time to create matrices: 1.345210075
+Time to solve matrices: 3.996869326
+
+Array u:
+
+[1.000e-04 2.000e-04 3.000e-04 ... 9.998e-01 9.999e-01 1.000e+00]
+
+uₙ: 1
+---------------------------------------------
+Running with MKL_NUM_THREADS=20
+N:10000
+Time to create matrices: 1.349400997
+Time to solve matrices: 4.536075830
+
+Array u:
+
+[1.000e-04 2.000e-04 3.000e-04 ... 9.998e-01 9.999e-01 1.000e+00]
+
+uₙ: 1
+---------------------------------------------
+Running with MKL_NUM_THREADS=40
+N:10000
+Time to create matrices: 1.346442223
+Time to solve matrices: 4.078126669
+
+Array u:
+
+[1.000e-04 2.000e-04 3.000e-04 ... 9.998e-01 9.999e-01 1.000e+00]
+
+uₙ: 1
+---------------------------------------------
