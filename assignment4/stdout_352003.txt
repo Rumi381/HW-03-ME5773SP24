@@ -1,0 +1,11 @@
+Establishing Anaconda environment
+Running with 1 OMP Threads
+Running with 1 NumExp Threads
+For loop operation time: 	352.165736
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	14.911879
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	10.987473
+F3: 	3.1415926535953167e+00
+Running with 2 OMP Threads
+Running with 1 NumExp Threads
