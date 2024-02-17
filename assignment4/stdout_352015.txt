@@ -1,0 +1,129 @@
+Establishing Anaconda environment
+Running with 1 OMP Threads
+Running with 1 NumExp Threads
+For loop operation time: 	344.221562
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.529060
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	11.195593
+F3: 	3.1415926535953167e+00
+Running with 2 OMP Threads
+Running with 1 NumExp Threads
+For loop operation time: 	351.863088
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.163421
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	7.375859
+F3: 	3.1415926535953167e+00
+Running with 4 OMP Threads
+Running with 1 NumExp Threads
+For loop operation time: 	369.949778
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.187390
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	4.678286
+F3: 	3.1415926535953167e+00
+Running with 8 OMP Threads
+Running with 1 NumExp Threads
+For loop operation time: 	346.136672
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.370003
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	3.162641
+F3: 	3.1415926535953167e+00
+Running with 1 OMP Threads
+Running with 2 NumExp Threads
+For loop operation time: 	342.664558
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.484299
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	11.256085
+F3: 	3.1415926535953167e+00
+Running with 2 OMP Threads
+Running with 2 NumExp Threads
+For loop operation time: 	362.587674
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.338088
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	7.910635
+F3: 	3.1415926535953167e+00
+Running with 4 OMP Threads
+Running with 2 NumExp Threads
+For loop operation time: 	359.031183
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.446739
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	4.846784
+F3: 	3.1415926535953167e+00
+Running with 8 OMP Threads
+Running with 2 NumExp Threads
+For loop operation time: 	343.723039
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.426480
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	3.239999
+F3: 	3.1415926535953167e+00
+Running with 1 OMP Threads
+Running with 4 NumExp Threads
+For loop operation time: 	348.679816
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.421518
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	11.170750
+F3: 	3.1415926535953167e+00
+Running with 2 OMP Threads
+Running with 4 NumExp Threads
+For loop operation time: 	349.937578
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.320306
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	6.919062
+F3: 	3.1415926535953167e+00
+Running with 4 OMP Threads
+Running with 4 NumExp Threads
+For loop operation time: 	349.399376
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.503572
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	4.421834
+F3: 	3.1415926535953167e+00
+Running with 8 OMP Threads
+Running with 4 NumExp Threads
+For loop operation time: 	352.730074
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.369817
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	3.235106
+F3: 	3.1415926535953167e+00
+Running with 1 OMP Threads
+Running with 8 NumExp Threads
+For loop operation time: 	345.254086
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.466260
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	11.135431
+F3: 	3.1415926535953167e+00
+Running with 2 OMP Threads
+Running with 8 NumExp Threads
+For loop operation time: 	341.763958
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.319363
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	7.371049
+F3: 	3.1415926535953167e+00
+Running with 4 OMP Threads
+Running with 8 NumExp Threads
+For loop operation time: 	381.726942
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.327148
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	4.933927
+F3: 	3.1415926535953167e+00
+Running with 8 OMP Threads
+Running with 8 NumExp Threads
+For loop operation time: 	347.033511
+F1: 	3.1415926535810987e+00
+Numpy calculation time: 	15.359038
+F2: 	3.1415926535896976e+00
+Numbers Express calculation time: 	3.176566
+F3: 	3.1415926535953167e+00

@@ -6,7 +6,7 @@
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH -c 80
-#SBATCH -t 00:30:00
+#SBATCH -t 24:00:00
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user matthew.holland@my.utsa.edu
 

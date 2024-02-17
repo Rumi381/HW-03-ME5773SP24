@@ -1,3 +1,4 @@
 The anaconda3  module version current  is loaded.
 
 
+slurmstepd: error: *** JOB 352003 ON c004 CANCELLED AT 2024-02-16T20:09:37 DUE TO TIME LIMIT ***
