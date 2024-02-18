@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -J numint_study
-#SBATCH -o stdout_%j.txt
+#SBATCH -J numerical_int_study
+#SBATCH -o numerical_int_study_output%j.txt
 #SBATCH -e errFile_%j.txt
 #SBATCH -p compute1
 #SBATCH -N 1
@@ -8,7 +8,7 @@
 #SBATCH -c 80
 #SBATCH -t 24:00:00
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user matthew.holland@my.utsa.edu
+#SBATCH --mail-user mdjalaluddin.rumi@utsa.edu
 
 module load anaconda3
 conda activate envTeam5
