@@ -1,3 +1,0 @@
-The anaconda3  module version current  is loaded.
-
-
