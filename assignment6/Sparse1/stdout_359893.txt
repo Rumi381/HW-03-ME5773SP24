@@ -1,0 +1,8 @@
+Establishing Anaconda environment
+Running with 1 workers
+Running with 2 workers
+Running with 4 workers
+Running with 8 workers
+Running with 16 workers
+Running with 20 workers
+Running with 40 workers

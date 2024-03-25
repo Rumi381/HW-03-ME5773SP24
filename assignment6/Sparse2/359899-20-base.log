@@ -1,0 +1,10 @@
+Number of Threads:	20
+Number of Degrees of freedom: 50000
+
+	Setting up problem with 20 number of tasks
+	Using Sparisty methodbase
+
+Result creation time:	0.3143320083618164
+Result attachment time:	3.6540935039520264
+Element Batch Definition Time:	0.001735687255859375
+Total time to assemble: 3.978468656539917

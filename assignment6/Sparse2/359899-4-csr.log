@@ -1,0 +1,12 @@
+Number of Threads:	4
+Number of Degrees of freedom: 50000
+
+	Setting up problem with 4 number of tasks
+	Using Sparisty methodcsr
+
+/home/eqc285/.conda/envs/HPC_ME5773/lib/python3.12/site-packages/scipy/sparse/_index.py:102: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_intXint(row, col, x.flat[0])
+Result creation time:	0.46727752685546875
+Result attachment time:	154.15949940681458
+Element Batch Definition Time:	0.0012705326080322266
+Total time to assemble: 154.63662362098694

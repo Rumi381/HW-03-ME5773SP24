@@ -1,0 +1,9 @@
+Number of Threads:	16
+Number of Degrees of freedom: 50000
+
+	Setting up problem with 16 number of tasks
+
+Result creation time:	0.36416006088256836
+Result attachment time:	3.5463016033172607
+Element Batch Definition Time:	0.0012760162353515625
+Total time to assemble: 3.9119372367858887
