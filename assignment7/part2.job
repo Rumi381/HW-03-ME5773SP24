@@ -1,0 +1,20 @@
+#!/bin/bash
+##
+#SBATCH --job-name=integral_mpi_part2
+#SBATCH --output=out.txt
+#SBATCH --output=out.txt
+#SBATCH --partition=compute1
+#SBATCH --time=01:10:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mdjalaluddin.rumi@utsa.edu
+#SBATCH --ntasks=10
+#SBATCH --nodes=1
+
+# Load one of these
+module load anaconda3
+source activate hpc
+#module load mpich
+mpirun -n $SLURM_NTASKS python3 integral_mpi_part2.py > part2.txt
+
+conda deactivate
+
