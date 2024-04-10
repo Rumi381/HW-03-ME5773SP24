@@ -1,0 +1,24 @@
+Running matrix multiplication with size 3
+
+Matrix Size: 3
+NumPy Multiplication Average Time: 0.0069866180419921875
+Cython Multiplication Average Time: 1.0824203491210937e-05
+----------------------------------------------
+Running matrix multiplication with size 10
+
+Matrix Size: 10
+NumPy Multiplication Average Time: 0.001901865005493164
+Cython Multiplication Average Time: 1.990795135498047e-05
+----------------------------------------------
+Running matrix multiplication with size 100
+
+Matrix Size: 100
+NumPy Multiplication Average Time: 0.003942465782165528
+Cython Multiplication Average Time: 0.009806942939758301
+----------------------------------------------
+Running matrix multiplication with size 1000
+
+Matrix Size: 1000
+NumPy Multiplication Average Time: 0.010202884674072266
+Cython Multiplication Average Time: 4.171834087371826
+----------------------------------------------
