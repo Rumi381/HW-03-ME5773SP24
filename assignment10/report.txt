@@ -1,0 +1,117 @@
+  -------------------------- 
+ Testing on a sorted array
+  -------------------------- 
+ Evaluating performance for specified numbers of threads:
+  -------------------------- 
+  -------------------------- 
+ OMP_NUM_THREADS=           1 
+  CPU Time for sorted array with linear search algorithm: 
+  0.295323133468628     
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+  -------------------------- 
+ CPU Time for binary search:   2.999999999975245E-006
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ Thus, binary search algorithm is    98441.0444903550      
+  times faster than linear search algorithm with            1 
+   threads for a given sorted array.
+  -------------------------- 
+  -------------------------- 
+ OMP_NUM_THREADS=           2 
+  CPU Time for sorted array with linear search algorithm: 
+  0.183238029479980     
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+  -------------------------- 
+ CPU Time for binary search:   1.099999999998325E-005
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ Thus, binary search algorithm is    16658.0026800236      
+  times faster than linear search algorithm with            2 
+   threads for a given sorted array.
+  -------------------------- 
+  -------------------------- 
+ OMP_NUM_THREADS=           4 
+  CPU Time for sorted array with linear search algorithm: 
+  0.112047910690308     
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+  -------------------------- 
+ CPU Time for binary search:   2.199999999996649E-005
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ Thus, binary search algorithm is    5093.08684956719      
+  times faster than linear search algorithm with            4 
+   threads for a given sorted array.
+  -------------------------- 
+  -------------------------- 
+ OMP_NUM_THREADS=           8 
+  CPU Time for sorted array with linear search algorithm: 
+  6.564688682556152E-002
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+  -------------------------- 
+ CPU Time for binary search:   7.900000000016227E-005
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ Thus, binary search algorithm is    830.973250954768      
+  times faster than linear search algorithm with            8 
+   threads for a given sorted array.
+  -------------------------- 
+  -------------------------- 
+ OMP_NUM_THREADS=          16 
+  CPU Time for sorted array with linear search algorithm: 
+  3.737306594848633E-002
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+  -------------------------- 
+ CPU Time for binary search:   2.469999999998862E-004
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ Thus, binary search algorithm is    151.307959305682      
+  times faster than linear search algorithm with           16 
+   threads for a given sorted array.
+             
+             
+  -------------------------- 
+ Testing on an unsorted array
+  -------------------------- 
+ Evaluating performance for specified numbers of threads:
+  -------------------------- 
+ OMP_NUM_THREADS=           1 
+  CPU Time for unsorted array with linear search algorithm: 
+  0.161029815673828     
+ Index computed with linear search:      4999999
+ was the value found?:  T
+  -------------------------- 
+ OMP_NUM_THREADS=           2 
+  CPU Time for unsorted array with linear search algorithm: 
+  0.129899024963379     
+ Index computed with linear search:      4999999
+ was the value found?:  T
+  -------------------------- 
+ OMP_NUM_THREADS=           4 
+  CPU Time for unsorted array with linear search algorithm: 
+  0.103485107421875     
+ Index computed with linear search:      4999999
+ was the value found?:  T
+  -------------------------- 
+ OMP_NUM_THREADS=           8 
+  CPU Time for unsorted array with linear search algorithm: 
+  6.151509284973145E-002
+ Index computed with linear search:      4999999
+ was the value found?:  T
+  -------------------------- 
+ OMP_NUM_THREADS=          16 
+  CPU Time for unsorted array with linear search algorithm: 
+  3.489995002746582E-002
+ Index computed with linear search:      4999999
+ was the value found?:  T
+  -------------------------- 
+  -------------------------- 
+ CPU Time for binary search on unsorted array:   2.379999999995164E-004
+ Index computed with linear search:           -1
+ was the value found?:  F
+ Meaning the binary search algorithm is unable to find the x value in the given 
+ unsorted array. This is expected as the algorithm only works for a sorted array
