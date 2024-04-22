@@ -1,0 +1,22 @@
+  -------------------------- 
+ Testing on a sorted array
+  -------------------------- 
+ CPU Time for linear search:   3.208799999999999E-002
+ Index computed with linear search:      9999999     9999999
+ was the value found?:  T
+ CPU Time for binary search:   3.999999999990123E-006
+ Index computed with binary search:      9999999     9999999
+ was the value found?:  T
+ Thus, binary search algorithm is    8022.00000001981      
+  times faster than linear search algorithm for a given sorted array.
+  -------------------------- 
+ Testing on an unsorted array
+  -------------------------- 
+ CPU Time for linear search on unsorted array:   8.098000000000050E-003
+ Index computed with linear search:      4999999
+ was the value found?:  T
+ CPU Time for binary search on unsorted array:   1.999999999946489E-006
+ Index computed with linear search:           -1
+ was the value found?:  F
+ Meaning the binary search algorithm is unable to find the x value in the given 
+ unsorted array. This is expected as the algorithm only works for a sorted array

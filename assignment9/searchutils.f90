@@ -1,6 +1,6 @@
 !
-!  Author:   Matthew Holland
-!  Date:     2024/04/21
+!  Authors:   Matthew Holland and Md Jalal Uddin Rumi
+!  Date:     2024/04/22
 !
 !  This file contains the search utilities required to do the functions of assignment9
 !
@@ -11,12 +11,13 @@ MODULE searchutils
 
 CONTAINS
 
-  !  Declare linear search subroutine within the module
   FUNCTION linearSearch(arr, n, x) RESULT(idx)
-    IMPLICIT NONE
-    ! This function will perform a linear search on an array to find the value within the
-    !   array. See: https://www.geeksforgeeks.org/linear-search/
+    ! Description: Function that finds the location (idx) of a value x
+    ! in an array using the linear search algorithm.
+    !
+    ! Find idx such that arr(idx) == x
     ! 
+    IMPLICIT NONE
     REAL(8) :: arr(n)           ! Array to search
     INTEGER :: n                ! Number of elements in the array
     REAL(8) :: x                ! Value to search for in array
@@ -29,16 +30,19 @@ CONTAINS
     DO i = 1, n
       IF (arr(i) == x) THEN
         idx = i
+        EXIT  ! Exit the loop once x is found
       END IF
     END DO
   END FUNCTION linearSearch
-  !  Declare binary search subrouting within the module
+
    
   FUNCTION binarySearch(arr, n, x) RESULT(idx)
-    IMPLICIT NONE
-    ! This function will perform a binary search on an array to find the value within the
-    !  array. See: https://www.geeksforgeeks.org/binary-search/
-    !  
+    ! Description: Function that finds the location (idx) of a value x
+    ! in a sorted array using the binary search algorithm.
+    !
+    ! Find idx such that arr(idx) == x
+    !
+    IMPLICIT NONE  
     REAL(8) :: arr(n)       ! Array to search
     INTEGER :: n            ! Number of elements in the array
     REAL(8) :: x            ! Value to search for in array
