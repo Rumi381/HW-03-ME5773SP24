@@ -1,0 +1,4 @@
+Algorithm,Time (seconds),Index
+Linear Search (Fortran),0.006527,9999999
+Binary Search (Fortran),0.000006,9999999
+Searchsorted (NumPy),0.000032,9999998
